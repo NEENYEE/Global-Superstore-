@@ -38,4 +38,10 @@ a) Determine the most valuable customers of Global Superstore and analyze their 
 
 ## Data Source
 
+The dataset was provided by Digitaley drive as an integral part of my capstone project [download here](https://docs.google.com/spreadsheets/d/1nxESpFzWjlGDMGDVLH69xmDzIl9l6OEq/edit#gid=633280281). The dataset is made up of three tables namely:
+- Orders - made up of 51,290 rowa and 24 columns.
+- Returns - made up of 1173 rows and 3 columns
+- Persons - made up of 13 rows and 2 columns
+- 
+
 

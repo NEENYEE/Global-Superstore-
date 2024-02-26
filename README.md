@@ -45,7 +45,7 @@ The dataset was provided by Digitaley drive as an integral part of my capstone p
 
 ## Tools
 
-This analysis leveraged Power BI Desktop for its interactive visualizations, data modeling capabilities, and seamless integration with various data sources. Within Power BI, Power Query was employed for data transformation and cleaning tasks, including shaping data, merging datasets, and creating custom calculations. Additionally, SQL (Structured Query Language) was utilized for querying databases, extracting specific information, performing joins and aggregations.
+This analysis leveraged Power BI Desktop for its interactive visualizations, data modeling capabilities, and seamless integration with various data sources. Within Power BI, Power Query was employed for data transformation and cleaning tasks, including shaping data, merging datasets, and creating custom calculations. Features like buttons and tool tips were also include to enhance page navigations.
 
 ## Data Cleaning and Transformation
 
@@ -62,6 +62,34 @@ Find and Replace: Replaced 'JoyBell-'
 - Handling Blanks and Duplicates: Checked for and addressed any blank or duplicate records in the dataset to maintain data integrity. It was observed that each customer had 2 customer IDs and this was consistent across all customers.
 
 ## Data Analysis
+
+The data analysis phase involved leveraging DAX measures to delve into the dataset and extract valuable insights. Below are two snippets of my DAX measures
+
+### Measure: Average Discount
+
+Description: Calculates the average discount for sales in the African market during the year 2014.
+
+```dax
+Average Discount = 
+CALCULATE(
+    AVERAGE('Sales'[Discount]), 
+    'Sales'[Market] = "Africa",
+    YEAR('Sales'[Order Date]) = 2014
+)
+```
+
+### Measure: Profit Margin
+
+Description: Calculates the profit margin as a percentage of total sales.
+
+```dax
+Profit Margin = DIVIDE(SUM('Sales'[Profit]), SUM('Sales'[Sales])) * 100
+```
+
+## Visualizations and Key insights
+
+Visualizations are instrumental in distilling complex data into actionable insights. This section showcases key visualizations derived from the analysis of Global Superstore sales data, along with the pivotal insights garnered from them. The visualizations were grouped into four categories namely: United states, Nigeria, Sub-category and Customers.
+[global dash.pdf](https://github.com/NEENYEE/Global-Superstore-/files/14409727/global.dash.pdf)
 
 
 

@@ -2,6 +2,18 @@
 
 ![image](https://github.com/NEENYEE/Global-Superstore-/assets/101926233/3ec26576-3040-4c0f-832c-80f0789f2ebd)
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Problem Statement](problem-statement)
+- [Data Source](#data-source)
+- [Tools](#tools)
+- [Data Cleaning and Transformation](#data-cleaning-and-transformation)
+- [Data Analysis](#data-analysis)
+- [Key Insights and Recommendations](#key-insights-and-recommendations)
+  
+
+## Overview
 
 Welcome to the Global Superstore Sales Analysis documentation! Here, we embark on a journey to extract valuable insights from the sales data of Global Superstore, a leading global online retailer headquartered in New York. With a vast product catalog and a commitment to being a one-stop-shop for customers worldwide, Global Superstore serves a diverse clientele spanning 147 countries.
 

@@ -89,7 +89,8 @@ Profit Margin = DIVIDE(SUM('Sales'[Profit]), SUM('Sales'[Sales])) * 100
 ## Visualizations and Key insights
 
 Visualizations are instrumental in distilling complex data into actionable insights. This section showcases key visualizations derived from the analysis of Global Superstore sales data, along with the pivotal insights garnered from them. The visualizations were grouped into four categories namely: United states, Nigeria, Sub-category and Customers.
-[global dash.pdf](https://github.com/NEENYEE/Global-Superstore-/files/14409727/global.dash.pdf)
+
+[global--.pdf](https://github.com/NEENYEE/Global-Superstore-/files/14409772/global--.pdf)
 
 
 

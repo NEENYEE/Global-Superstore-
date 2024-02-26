@@ -42,6 +42,31 @@ The dataset was provided by Digitaley drive as an integral part of my capstone p
 - Orders - made up of 51,290 rowa and 24 columns.
 - Returns - made up of 1173 rows and 3 columns
 - Persons - made up of 13 rows and 2 columns
-- 
+
+## Tools
+
+This analysis leveraged Power BI Desktop for its interactive visualizations, data modeling capabilities, and seamless integration with various data sources. Within Power BI, Power Query was employed for data transformation and cleaning tasks, including shaping data, merging datasets, and creating custom calculations. Additionally, SQL (Structured Query Language) was utilized for querying databases, extracting specific information, performing joins and aggregations.
+
+## Data Cleaning and Transformation
+
+Data preparation is a critical phase in the analysis process, involving various tasks to clean, transform, and structure the raw data for analysis. In the case of the Global Superstore sales data, several steps were undertaken to ensure the data was accurate, consistent, and ready for analysis.
+
+**Steps Taken**
+- Data Sorting: Sorted the data by Row ID to ensure consistency and facilitate subsequent operations.
+Find and Replace: Replaced 'JoyBell-'
+
+- Date Format Standardization: changed all date columns to YYYY-MM-DD format to ensure uniformity and compatibility for analysis.
+
+- Feature engineering: Created separate columns for year and month from the date data to facilitate time-based analysis; and dropped the "Postal Code" column as it was deemed irrelevant for the analysis.
+
+- Handling Blanks and Duplicates: Checked for and addressed any blank or duplicate records in the dataset to maintain data integrity. It was observed that each customer had 2 customer IDs and this was consistent across all customers.
+
+## Data Analysis
+
+
+
+
+
+
 
 

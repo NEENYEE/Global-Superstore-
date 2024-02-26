@@ -86,11 +86,20 @@ Description: Calculates the profit margin as a percentage of total sales.
 Profit Margin = DIVIDE(SUM('Sales'[Profit]), SUM('Sales'[Sales])) * 100
 ```
 
-## Visualizations and Key insights
+## Key insights and Recommendations
 
 Visualizations are instrumental in distilling complex data into actionable insights. This section showcases key visualizations derived from the analysis of Global Superstore sales data, along with the pivotal insights garnered from them. The visualizations were grouped into four categories namely: United states, Nigeria, Sub-category and Customers.
+[global--.pdf](https://github.com/NEENYEE/Global-Superstore-/files/14409772/global--.pdf).
 
-[global--.pdf](https://github.com/NEENYEE/Global-Superstore-/files/14409772/global--.pdf)
+- Global superstore is made up of 138 countries, with total sales of $12.6M, total profit $1.5M and a profit margin of 11.6%, all across four years (2011-2014)
+- The three countries that generated the highest income are united states, India and China.
+- The subcategories with the highest shipping cost in the US are copiers ($165.3), machines ($132.2) and tables ($70)
+- In 2014, Nigeria made no profit acroos all the months. When compared to other african countries in Africa, it was observed to be one of the contries with the highest losses. On further investigation, it was observed that these losses could be as a result high discount rate as it was one of the three countries with the highest average discount. The findings from the average shipping costs revealed that it wasn't a significant factor attributed to the losses.
+- In south asia, the least profitable sub-categories are tables, accessories and supplies with profits of -18,618.3, -8,641.5 and -4,034 respectively. With table being the least profotable, it was observed that Indonesia incurred significant losses from this product. Therefore, further investigations should be carried to find out why and probably suspend the supply of tables to indonesia.
+- The least profitable cities in the US are lancaster, burlington, San-Antonio and Rockford. These cities offered the most discount, made the least sales and very few orders. Therefore, thorough analysis of the market conditions in these cities should be carried out.
+- In Australia, the prodduct category withbthe least profits are tables, fasteners, labels, envelopes, binders and art.
+- There are 794 customers across 138 countries. The most most valuable customers by profit are Tamara Chand (copiers), Raymond Buch (copiers), Sanjit Chand (binders), Hunter Lopez (copiers) and Bill Eplett (copiers) with total profits of 8,672.9, 8,453, 8,205, 7,816, 7,410. They have been at the top from 2011 to 2014.
+- They are the top customers because they purchase most of top sub-categories by profit.
 
 
 
